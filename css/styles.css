@@ -1,0 +1,155 @@
+
+body {
+    font-family:'Montserrat-Black', sans-serif;
+}
+
+h1 { 
+    font-size: 3.5rem;
+    font-weight: bolder;
+    line-height: 1.2;
+    font-weight: 400px;
+}
+
+h2 {
+    font-family: "Montserrat-Bold";
+    font-size: 2.5rem;
+    font-weight: bolder;
+    line-height: 1.5;
+    font-weight: 300px;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.container-fluid {
+    padding: 2% 15%;
+}
+
+/* Title */
+
+#title {
+    background-color: #ff4c68;
+}
+
+/* navbar */
+
+.navbar-brand {
+    font-family: "Ubantu";
+    font-size: 2.5rem;
+    /* font-weight: bold; */
+}
+
+.nav-link {
+    font-size: larger;
+}
+
+.button-download {
+    margin: 5% 3% 5% 0%;
+}
+
+.title-image {
+    width: 80%;
+    transform: rotate(25deg);
+    padding: 0 4.5rem; 
+    /* position: absolute; */
+}
+
+/* features */
+
+#features {
+    padding: 7% 15%;
+}
+/* icon-area */
+
+.icon {
+    color: #ef8172;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* testimonials */
+
+#testimonials {
+    background-color: #ff4c68;
+}
+
+#testimonials .carousel-item {
+    padding: 7% 15%;
+} 
+
+#testimonials .testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+}
+
+/* Press */
+
+#press {
+    background-color: #ff4c68;
+    
+}
+
+#press img {
+    width: 15%;
+    margin: 1rem 1rem 0.5rem;
+}
+
+/* pricing */
+
+#pricing {
+    padding: 5rem;
+}
+
+#pricing .card-element {
+    padding: 5% 2%;
+}
+
+/* cta */
+#cta {
+    color: aliceblue;
+    background-color: #ff4c68;
+}
+
+/* Footer */
+
+.footer-row i {
+    color: black;
+}
+
+/* media quaries */
+
+@media (max-width: 1150px) {
+    h1 { 
+        font-size: 2.8rem;
+        line-height: 1.2;
+        font-weight: 400px;
+    }
+
+    h2 {
+        font-size: 2.0;
+    }
+
+    .title-image {
+        /* width: 80%; */
+        transform: rotate(0deg);
+    }
+}
+
+@media (max-width: 992px) {
+
+    h1 {
+        font-size: 2.4rem;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+    }
+
+    .title-image {
+        width: 65%;
+        margin: auto;
+    }
+}
